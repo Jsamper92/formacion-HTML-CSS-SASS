@@ -18,7 +18,7 @@ A continuación, detallaremos el enunciado de los ejercicios que nos acompañara
 
 Teniendo en cuenta la siguiente imagen, crea la estructura HTML tomando como referencia los criterios semanticos que se abordan en las [diapositivas](HTML_Basico.pptx) del bloque formativo. Los recursos necesarios para la realización del ejercicio se encuentren en el mismo repositorio, considera cual deberia ser la correcta estructura de archivos, ten en cuenta que dicha práctica es escalable y el punto de partida de cada sesión dependera de la anterior.
 
-![Práctica](practicaHTML.png)
+![Práctica](documentation/practicaHTML.png)
 
 ## Práctica CSS
 
@@ -26,7 +26,7 @@ Teniendo en cuenta la siguiente imagen, crea la estructura HTML tomando como ref
 
 Teniendo en cuenta la siguiente imagen, estiliza la estructura HTML para obtener un retrato fiel de la misma. Los recursos necesarios para la realización del ejercicio se encuentran en el repositorio.
 
-![demo](practicaCSS.png)
+![demo](documentation/practicaCSS.png)
 
 ## Prácticas SASS
 
