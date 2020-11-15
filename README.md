@@ -22,12 +22,26 @@ La raíz del ejercicio parte de la rama ```html-block```, de modo que deberéis 
 
 ## Práctica CSS
 
-Teniendo en cuenta la siguiente imagen, crea la estructura HTML tomando como referencia los criterios semanticos que se abordan en las [diapositivas](curso_css_basico.pptx) del bloque formativo. Los recursos necesarios para la realización del ejercicio se encuentren en el mismo repositorio, considera cual deberia ser la correcta estructura de archivos, 
+## Ejercicio 1
+La raíz del ejercicio parte de la rama ```html-css```, de modo que deberéis cambiaros a dicha rama y traeros los cambios. Teniendo en cuenta la siguiente imagen, crea la estructura HTML tomando como referencia los criterios semanticos que se abordan en las [diapositivas](curso_css_basico.pptx) del bloque formativo. Los recursos necesarios para la realización del ejercicio se encuentren en el mismo repositorio, considera cual deberia ser la correcta estructura de archivos, 
 
 Teniendo en cuenta la siguiente imagen, estiliza la estructura HTML para obtener un retrato fiel de la misma. Los recursos necesarios para la realización del ejercicio se encuentran en el repositorio.
 
 ![demo](documentation/practicaCSS.png)
+## Ejercicio 2
+Accede al siguiente [enlace](https://fonts.google.com/specimen/Lato#glyphs) y descargate la fuente de texto, una vez hecho insertala en el proyecto y comprueba que el navegador la trae correctamente.
 
+## Ejercicio 3
+Modifica los checkbox de manera que aparezcan las imagenes ```i-checkbox-checked.svg``` y ```i-checkbox-unchecked.svg``` en función del estado del input. Una vez insertadas las nuevas imagenes, deberia darte como resultado lo siguiente:
+![demo](documentation/practicaCSS-result.png)
+
+### BONUS
+Convierte estas dos imagenes en una fuente de texto y aplicalas en los checkbox. Para crear la fuente puedes hacerlo desde la siguiente [herramienta](https://icomoon.io/app/#/projects)
+
+## Ejercicio 4
+En el apartado de los articulos añade un bloque más y controla el desbordamiento de forma que se pueda visualizar por medio de un scroll.
+## Ejercicio 5
+Crea un archivo javascript para convertir las rutas de las imagenes de nuestro css en base64. Para ello tendras que instalar ```postcss``` y ```postcss-url```. Recuerda que para lanzarlo deberas crear un script en nuestro package.json cuyo contenido deberia ser ```node ubicacion-archivo-js```.
 ## Prácticas SASS
 
 ## Ejercicio 1

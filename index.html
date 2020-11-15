@@ -3,158 +3,198 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Curso básico HTML5</title>
+    <title>Curso básico CSS</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
 
   <body>
-    <header>
-      <h1>Hola Mundo</h1>
-      <nav>
-        <ul>
-          <li>Menu item 1</li>
-          <li>Menu item 2</li>
-          <li>Menu item 3</li>
-        </ul>
-      </nav>
+    <header class="header container">
+      <div class="header-content">
+        <h1 class="principal-title">Hola Mundo</h1>
+        <nav>
+          <ul class="navigation-ul">
+            <li class="navigation-list">
+              <a class="navigation-link" href="#element-1"
+                >Menu item 1</a
+              >
+            </li>
+            <li class="navigation-list">
+              <a class="navigation-link" href="#element-2"
+                >Menu item 2</a
+              >
+            </li>
+            <li class="navigation-list">
+              <a class="navigation-link" href="#element-3"
+                >Menu item 3</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
-
-    <section>
-      <article>
-        <h2>Mi noticia</h2>
-        <div>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae
-            esse ad doloribus magni, vel voluptatibus animi veritatis architecto
-            voluptatem laudantium perspiciatis non itaque, unde eius?
-            Dignissimos quidem eveniet dolorem blanditiis?
-          </p>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. At quasi
-            rerum necessitatibus incidunt, asperiores iste ex! Ipsam delectus
-            voluptate officia quis natus iusto asperiores optio quidem in ullam,
-            non omnis?
-          </p>
-        </div>
-      </article>
-
-      <article>
-        <h2>Mi formulario</h2>
-        <form>
-          <fieldset>
-            <legend>Datos personales</legend>
-            <label for="nombre">Nombre</label>
-            <input type="text" name="nombre" id="nombre" placeholder="nombre" />
-            <label for="apellidos">Apellidos</label>
-            <input
-              type="text"
-              name="apellidos"
-              id="apellidos"
-              placeholder="apellidos"
-            />
-            <label for="phone">Nombre</label>
-            <input
-              type="number"
-              name="phone"
-              id="phone"
-              placeholder="teléfono"
-            />
-            <label class="inline-block" for="dni">DNI</label>
-            <input
-              class="inline-block"
-              type="radio"
-              name="passport"
-              id="dni"
-              value="dni"
-            />
-            <label class="inline-block" for="nie">NIE</label>
-            <input
-              class="inline-block"
-              type="radio"
-              name="passport"
-              id="nie"
-              value="nie"
-            />
-            <label for="document">Nº Documento</label>
-            <input
-              type="text"
-              name="document"
-              id="document"
-              placeholder="document"
-            />
-          </fieldset>
-          <fieldset>
-            <legend>Otros datos</legend>
-            <label for="family">Número de hermanos/as</label>
-            <input
-              type="text"
-              name="family"
-              id="family"
-              placeholder="Nº de hermanos/as"
-            />
-            <fieldset class="hide-fieldset">
-              <legend>Deportes favoritos</legend>
-              <ol>
-                <li>
-                  <label class="inline-block" for="football">Fútbol</label>
-                  <input
-                    class="inline-block"
-                    type="checkbox"
-                    name="football"
-                    id="football"
-                  />
-                </li>
-                <li>
-                  <label class="inline-block" for="basketball"
-                    >Baloncesto</label
-                  >
-                  <input
-                    class="inline-block"
-                    type="checkbox"
-                    name="basketball"
-                    id="basketball"
-                  />
-                </li>
-                <li>
-                  <label class="inline-block" for="rugby">Rugby</label>
-                  <input
-                    class="inline-block"
-                    type="checkbox"
-                    name="rugby"
-                    id="rugby"
-                  />
-                </li>
-                <li>
-                  <label class="inline-block" for="padel">Padel</label>
-                  <input
-                    class="inline-block"
-                    type="checkbox"
-                    name="padel"
-                    id="padel"
-                  />
-                </li>
-                <li>
-                  <label class="inline-block" for="vascaBall"
-                    >Pelota vasca</label
-                  >
-                  <input
-                    class="inline-block"
-                    type="checkbox"
-                    name="vascaBall"
-                    id="vascaBall"
-                  />
-                </li>
-              </ol>
+    <section class="wrapper container">
+      <main>
+        <article class="news">
+          <div class="container-news">
+            <h2 class="subtitle">Mi Noticia</h2>
+            <p class="paragraph" id="element-1">
+              Minions <b>ipsum</b> tank yuuu! Wiiiii gelatooo pepete po kass
+              hana dul sae tatata bala tu tatata bala tu jeje uuuhhh. La bodaaa
+              tank yuuu! La bodaaa daa. Bananaaaa me want bananaaa! Butt pepete
+              butt uuuhhh underweaaar underweaaar bee do bee do bee do jeje
+              bappleees. Pepete baboiii pepete underweaaar. La bodaaa poulet
+              tikka masala jeje ti aamoo! Me want bananaaa! Para tú underweaaar
+              bappleees underweaaar bee do bee do bee do. Baboiii daa la bodaaa
+              underweaaar po kass hana dul sae gelatooo uuuhhh. Baboiii belloo!
+              Po kass tatata bala tu jiji belloo! Poulet tikka masala
+              underweaaar potatoooo aaaaaah. Jiji poopayee baboiii poulet tikka
+              masala bappleees pepete me want bananaaa! Wiiiii.
+            </p>
+            <p class="paragraph" id="element-2">
+              Underweaaar potatoooo me want bananaaa! Jeje para tú bappleees
+              chasy bappleees tank yuuu! Para tú. Belloo! me want bananaaa!
+              Uuuhhh pepete butt para tú. Poopayee belloo! Aaaaaah bananaaaa
+              butt bananaaaa bananaaaa belloo! Baboiii aaaaaah. Jeje me want
+              bananaaa! Chasy gelatooo pepete para tú tulaliloo hana dul sae
+              gelatooo. Underweaaar jiji potatoooo me want bananaaa! Po kass la
+              bodaaa bappleees me want bananaaa! Jiji wiiiii. Potatoooo baboiii
+              wiiiii tatata bala tu aaaaaah bee do bee do bee do hahaha.
+              Bananaaaa poulet tikka masala butt pepete belloo! Bee do bee do
+              bee do daa hahaha wiiiii wiiiii. Poopayee baboiii butt ti aamoo!
+              Underweaaar gelatooo tatata bala tu hahaha. Poopayee la bodaaa
+              chasy bappleees belloo! Me want bananaaa! Poopayee jeje potatoooo
+              ti aamoo!
+            </p>
+            <p class="paragraph" id="element-3">
+              Underweaaar potatoooo me want bananaaa! Jeje para tú bappleees
+              chasy bappleees tank yuuu! Para tú. Belloo! me want bananaaa!
+              Uuuhhh pepete butt para tú. Poopayee belloo! Aaaaaah bananaaaa
+              butt bananaaaa bananaaaa belloo! Baboiii aaaaaah. Jeje me want
+              bananaaa! Chasy gelatooo pepete para tú tulaliloo hana dul sae
+              gelatooo. Underweaaar jiji potatoooo me want bananaaa! Po kass la
+              bodaaa bappleees me want bananaaa! Jiji wiiiii. Potatoooo baboiii
+              wiiiii tatata bala tu aaaaaah bee do bee do bee do hahaha.
+              Bananaaaa poulet tikka masala butt pepete belloo! Bee do bee do
+              bee do daa hahaha wiiiii wiiiii. Poopayee baboiii butt ti aamoo!
+              Underweaaar gelatooo tatata bala tu hahaha. Poopayee la bodaaa
+              chasy bappleees belloo! Me want bananaaa! Poopayee jeje potatoooo
+              ti aamoo!
+            </p>
+          </div>
+        </article>
+        <section class="container-forms">
+          <h2 class="subtitle">Mi Formulario</h2>
+          <form>
+            <fieldset class="form-data personal-data">
+              <legend class="form-title">Datos personales</legend>
+              <div class="container-form">
+                <label class="label" for="name">Nombre</label>
+                <input class="input-text" type="text" id="name" />
+              </div>
+              <div class="container-form">
+                <label class="label" for="surname">Apellidos</label>
+                <input class="input-text" type="text" id="surname" />
+              </div>
+              <div class="container-form">
+                <label class="label" for="telephone">Teléfono</label>
+                <input class="input-text" type="tel" id="telephone" />
+              </div>
+              <div class="container-form container-radiobutton">
+                <input
+                  class="input-radio"
+                  type="radio"
+                  id="dni"
+                  name="identityCard"
+                  value="DNI"
+                />
+                <label class="label" for="dni">DNI</label>
+                <input
+                  class="input-radio"
+                  type="radio"
+                  id="nie"
+                  name="identityCard"
+                  value="NIE"
+                />
+                <label class="label" for="nie">NIE</label><br />
+              </div>
+              <div class="container-form">
+                <label class="label" for="numberIdentityCard"
+                  >Nº Documento</label
+                >
+                <input class="input-text" type="text" id="numberIdentityCard" />
+              </div>
             </fieldset>
-          </fieldset>
-          <button type="reset">Reset Form</button>
-          <button type="submit">Enviar</button>
-        </form>
-      </article>
-
-      <article>
-        <table>
+            <fieldset class="form-data other-data">
+              <legend class="form-title">Otros datos</legend>
+              <div class="container-form">
+                <label class="label" for="siblings"
+                  >Número de hermanos/as</label
+                >
+                <input type="number" id="siblings" />
+              </div>
+              <div class="container-form">
+                <p>Deportes favoritos:</p>
+                <ol>
+                  <li>
+                    <label class="label" for="futbol">Fútbol</label>
+                    <input
+                      class="input-checkbox"
+                      type="checkbox"
+                      name="futbol"
+                      id="futbol"
+                      value="small"
+                    />
+                  </li>
+                  <li>
+                    <label class="label" for="bascket">Baloncesto</label>
+                    <input
+                      class="input-checkbox"
+                      type="checkbox"
+                      name="size"
+                      id="bascket"
+                      value="small"
+                    />
+                  </li>
+                  <li>
+                    <label class="label" for="rugby">Rugby</label>
+                    <input
+                      class="input-checkbox"
+                      type="checkbox"
+                      name="size"
+                      id="rugby"
+                      value="small"
+                    />
+                  </li>
+                  <li>
+                    <label class="label" for="paddle">Padel</label>
+                    <input
+                      class="input-checkbox"
+                      type="checkbox"
+                      name="size"
+                      id="paddle"
+                      value="small"
+                    />
+                  </li>
+                  <li>
+                    <label class="label" for="basque_ball">Pelota vasca</label>
+                    <input
+                      class="input-checkbox"
+                      type="checkbox"
+                      name="size"
+                      id="basque_ball"
+                      value="small"
+                    />
+                  </li>
+                </ol>
+              </div>
+            </fieldset>
+            <input class="btn" type="reset" value="Reset Form" />
+            <input class="btn" type="submit" />
+          </form>
+        </section>
+        <table class="table-cool">
           <caption>
-            Titulo de nuestra tabla molona
+            <h2 class="subtitle">Título de nuestra Tabla Molona</h2>
           </caption>
           <thead>
             <tr>
@@ -169,23 +209,23 @@
             <tr>
               <td>Carlos</td>
               <td>Casalengua</td>
-              <td>12345678</td>
-              <td>12345677</td>
-              <td>Futbol,padel</td>
+              <td>987654321</td>
+              <td>12345678-A</td>
+              <td>Futbol, Padel</td>
             </tr>
             <tr>
-              <td>Jesus</td>
-              <td>Cadenas</td>
-              <td>12345678</td>
-              <td>12345678</td>
-              <td>rugby, pelota vasca</td>
+              <td>Jesús</td>
+              <td>Cárdenas</td>
+              <td>987654329</td>
+              <td>12345678-Z</td>
+              <td>Rugby, Pelota vasca</td>
             </tr>
           </tbody>
         </table>
-      </article>
+      </main>
+      <aside class="image-publicity">
+        <img src="assets/img/publicity.png" alt="publicidad" />
+      </aside>
     </section>
-    <aside>
-        <img src="assets/publicity.png" alt="publicity">
-    </aside>
   </body>
 </html>
