@@ -54,7 +54,7 @@ Crea un archivo javascript para convertir las rutas de las imagenes de nuestro c
 ## Prácticas SASS
 
 ## Ejercicio 1
-1. Dada la estructura base, analizar el archivo _index.html_ y migrar la nomenclatura bajo la metodología BEM, clonando estas nuevas clases en el archivo _assets/css/style.css_
+1. Dada la estructura base, analizar el archivo _index.html_ y migrar la nomenclatura bajo la metodología BEM, clonando estas nuevas clases en el archivo _assets/styles/style.css_
 2. Una vez hecho esto comprobar el visual
 
 ## Ejercicio 2
