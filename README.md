@@ -21,13 +21,19 @@ La raíz del ejercicio parte de la rama ```html-block```, de modo que deberéis 
 ![Práctica](documentation/practicaHTML.png)
 
 ## Práctica CSS
-
-## Ejercicio 1
 La raíz del ejercicio parte de la rama ```html-css```, de modo que deberéis cambiaros a dicha rama y traeros los cambios. Teniendo en cuenta la siguiente imagen, crea la estructura HTML tomando como referencia los criterios semanticos que se abordan en las [diapositivas](curso_css_basico.pptx) del bloque formativo. Los recursos necesarios para la realización del ejercicio se encuentren en el mismo repositorio, considera cual deberia ser la correcta estructura de archivos, 
 
-Teniendo en cuenta la siguiente imagen, estiliza la estructura HTML para obtener un retrato fiel de la misma. Los recursos necesarios para la realización del ejercicio se encuentran en el repositorio.
+Teniendo en cuenta la siguiente imagen, estiliza la estructura HTML para obtener un retrato fiel de la misma. 
+![demo](documentation/practicaCSS-desktop.png)
+## Ejercicio 1
+Crea una grid para establecer los anchos máximos en cada una de las resoluciones:
+- sm: mobile desde 0px
+- md: tablet desde 768px
+- lg: desktop desde 1200px
 
-![demo](documentation/practicaCSS.png)
+El visual en responsive deberia verse de la siguiente manera:
+
+![demo](documentation/practicaCSS-tablet.png)
 ## Ejercicio 2
 Accede al siguiente [enlace](https://fonts.google.com/specimen/Lato#glyphs) y descargate la fuente de texto, una vez hecho insertala en el proyecto y comprueba que el navegador la trae correctamente.
 
@@ -39,13 +45,16 @@ Modifica los checkbox de manera que aparezcan las imagenes ```i-checkbox-checked
 Convierte estas dos imagenes en una fuente de texto y aplicalas en los checkbox. Para crear la fuente puedes hacerlo desde la siguiente [herramienta](https://icomoon.io/app/#/projects)
 
 ## Ejercicio 4
-En el apartado de los articulos añade un bloque más y controla el desbordamiento de forma que se pueda visualizar por medio de un scroll.
+En el apartado de los articulos especifica un max-height al bloque contenedor y controla el desbordamiento de forma que se pueda visualizar por medio de un scroll.
+
+### BONUS
+Genera un ancla en los distintos items del menu de navegación, donde al clickar en cada uno de ellos el bloque contenedor de los articulos haga una animación de scroll hacia el articulo concreto.
 ## Ejercicio 5
 Crea un archivo javascript para convertir las rutas de las imagenes de nuestro css en base64. Para ello tendras que instalar ```postcss``` y ```postcss-url```. Recuerda que para lanzarlo deberas crear un script en nuestro package.json cuyo contenido deberia ser ```node ubicacion-archivo-js```.
 ## Prácticas SASS
 
 ## Ejercicio 1
-1. Dada la estructura base, analizar el archivo _index.html_ y migrar la nomenclatura bajo la metodología BEM, clonando estas nuevas clases en el archivo _assets/styles/style.css_
+1. Dada la estructura base, analizar el archivo _index.html_ y migrar la nomenclatura bajo la metodología BEM, clonando estas nuevas clases en el archivo _assets/css/style.css_
 2. Una vez hecho esto comprobar el visual
 
 ## Ejercicio 2
@@ -165,7 +174,3 @@ Con las clases CSS bajo la nomenclatura BEM, es momento de crear una estructura 
 1. Instala la depedencia `npm i sass-lint`
 2. Crea el archivo de configuración para poder hacer el lintado a tu sass, y añade alguna [regla](https://github.com/sasstools/sass-lint/tree/master/docs/rules) para comprobarlo
 3. Crea un nuevo script para comprobar el lintado de tu archivos, debes excluir todos los archivos de _node_modules_
-
-### Ejercicio 5
-1. Cambia las variables sass por [custom properties](https://drafts.csswg.org/css-variables/#defining-variables)
-2. Comprueba que al cambiar el valor de estas se hacen los cambios pertinentes

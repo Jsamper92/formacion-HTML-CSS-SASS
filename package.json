@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "http-server",
-    "build:images": "node scripts/postcss.js"
+    "build": "sass --watch assets/scss/main.scss assets/css/styles.css",
+    "build:images": "node scripts/postcss.js",
+    "lint:sass": "sass-lint -c ./sass-lint.yml -v -q"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,8 @@
     "fs": "0.0.1-security",
     "http-server": "^0.12.3",
     "postcss": "^8.1.7",
-    "postcss-url": "^10.1.0"
+    "postcss-url": "^10.1.0",
+    "sass": "^1.29.0",
+    "sass-lint": "^1.13.1"
   }
 }
